@@ -20,7 +20,7 @@
                         </div>
 
                         <div class="col-lg-4">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-warning">Submit</button>
                         </div>
                     </div>
                 </form>
@@ -82,7 +82,7 @@
             padding-top: 10vh;
             color: rgb(43, 255, 0);
             font-size: 4rem;
-        } 
+        }
 
     </style>
 @endpush
