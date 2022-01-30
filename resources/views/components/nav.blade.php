@@ -27,6 +27,7 @@
             <a class="nav-link disabled">Disabled</a>
           </li>
         </ul>
+        @if (Auth::user())
         <form method="POST" action="{{ route('logout') }}">
           @csrf
 
@@ -36,6 +37,12 @@
               {{ __('Log Out') }}
           </x-jet-responsive-nav-link>
       </form>
+        @else
+        <span> <a href="{{ route('register')}}">Register</a></span>  ||
+        <span> <a href="{{ route('login')}}">Login</a></span>
+        
+        @endif
+       
       </div>
     </div>
   </nav>

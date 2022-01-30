@@ -82,7 +82,7 @@
             padding-top: 10vh;
             color: rgb(43, 255, 0);
             font-size: 4rem;
-        }
+        } 
 
     </style>
 @endpush
